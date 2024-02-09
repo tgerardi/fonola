@@ -1,4 +1,0 @@
-/home/tomasgerardi/fonola/build/CMakeFiles/edit_cache.dir
-/home/tomasgerardi/fonola/build/CMakeFiles/run.dir
-/home/tomasgerardi/fonola/build/CMakeFiles/rebuild_cache.dir
-/home/tomasgerardi/fonola/build/CMakeFiles/fonola.dir
