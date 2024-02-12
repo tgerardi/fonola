@@ -2,14 +2,29 @@
 #include <vector>
 #include <string>
 
+#include "raylib.h"
+
 using namespace std;
 
 int main() {
-    vector<string> msg {"Hello!", "C++", "from", "VS Code", "and the C++ extension!"};
    
-    for(const string& word : msg) { 
-        cout << word << " "; 
-    } 
-    
-    cout << endl; 
+    const int screenWidth = 800;
+    const int screenHeight = 600;
+
+    InitWindow(screenWidth, screenHeight, "urmom");
+
+    SetTargetFPS(60);
+
+    while (!WindowShouldClose()) {
+        BeginDrawing();
+        {
+            ClearBackground(RAYWHITE);
+            DrawText("Congrats! First window created", screenWidth/2, screenHeight/2, 69, LIGHTGRAY);
+        }
+        EndDrawing();
+    }
+
+    CloseWindow();   
+
+    return 0;
 }
